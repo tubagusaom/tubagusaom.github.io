@@ -693,7 +693,7 @@ li.active a {
   height: 100%;
   position: absolute;
   bottom: 5px;
-  left: -5px;
+  left: -4px;
   content: "";
   border: 1px solid #ebbd34;
   transform: skew(0deg, 65deg);
