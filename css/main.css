@@ -1092,7 +1092,8 @@ li.active a {
 .portfolio-grid img {
   position: relative;
   display: block;
-  width: 100%
+  width: 100%;
+  filter: blur(2px);
 }
 
 .portfolio-filters {
