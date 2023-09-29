@@ -3,6 +3,18 @@
 @import "https://fonts.googleapis.com/css?family=Oswald:300,400,700";
 @import "https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic&amp;subset=latin,latin-ext,cyrillic";
 
+
+::selection {
+  color: #999;
+  /* background: #ebdf00; */
+  background: transparent;
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: #999;
+  background: transparent;
+}
+
 html {
   height: 100%
 }
