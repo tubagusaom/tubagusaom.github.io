@@ -1093,7 +1093,7 @@ li.active a {
   position: relative;
   display: block;
   width: 100%;
-  filter: blur(2px);
+  filter: brightness(0.5);
 }
 
 .portfolio-filters {
