@@ -98,38 +98,7 @@ input[type=submit], input[type=button], button, a.button {
   font-family: pt sans, Helvetica, sans-serif
 }
 
-.div-button-about {
-  width: 100%!important;
-  display: flex!important;
-  flex-wrap: wrap!important;
-  justify-content: center!important;
-}
 
-a.button-about {
-  display: inline-block!important;
-  position: relative!important;
-  padding: .3em 1.3em!important;
-  margin-bottom: .25em!important;
-  line-height: 1.2!important;
-  border: 0!important;
-  outline: 0;
-  color: #fff!important;
-  border: 2px solid #225982!important;
-  background-color: #225982!important;
-  text-shadow: none!important;
-  border-radius: 4px!important;
-  font-family: pt sans, Helvetica, sans-serif!important;
-}
-
-a.button-about:hover, a.button-about:focus {
-  color: #225982!important;
-  background: 0 0!important;
-}
-
-.text-button-about {
-  /* padding: .8em 2em; */
-  font-size: 1.2em!important;
-}
 
 .btn {
   border-radius: 0
