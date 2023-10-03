@@ -48,8 +48,8 @@
   }
 
   .desc-general-info {
-    font-size: 1.3em;
-    /* width: 100%!important; */
+    font-size: 1.3em!important;
+    width: 100%!important;
     display: flex!important;
     flex-wrap: wrap!important;
     justify-content: center!important;
