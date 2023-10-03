@@ -45,10 +45,14 @@
     .section-title-home:after {
       display: none
     }
+  }
 
-    .desc-general-info {
-        font-size: 1.1em;
-    }
+  .desc-general-info {
+    font-size: 1.3em;
+    /* width: 100%!important; */
+    display: flex!important;
+    flex-wrap: wrap!important;
+    justify-content: center!important;
   }
 
 
