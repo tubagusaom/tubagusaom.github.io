@@ -722,30 +722,7 @@ li.active a {
   background: #ebbd34
 }
 
-.section-title-home {
-  /* display: inline-block;
-  position: relative; */
-  margin: 66px 0 0 0;
-  padding: 10px 20px 10px 20px;
-  background-color: #ffcd38;
-  
-  /* line-height: 1.1em; */
-  font-weight: 500;
-  font-size: 1.5em;
-  
-  text-align: center;
-  width: 100%;
 
-  color: rgba(255, 255, 255, 1);
-  text-shadow: 2px 2px 0px rgb(105, 109, 112), 
-               2px -2px 0px rgb(105, 109, 112), 
-			   -2px 2px 0px rgb(105, 109, 112), 
-			   -2px -2px 0px rgb(105, 109, 112), 
-			   2px 0px 0px rgb(105, 109, 112), 
-			   0px 2px 0px rgb(105, 109, 112), 
-			   -2px 0px 0px rgb(105, 109, 112), 
-			   0px -2px 0px rgb(105, 109, 112);
-}
 
 .section-description {
   display: inline-block;
@@ -1922,17 +1899,7 @@ blockquote {
     display: none
   }
 
-  .section-title-home {
-    display: inline-block;
-    position: relative;
-    /* margin-left: -20px; */
-    padding-left: 20px;
-    font-size: 1.2em;
-  }
-
-  .section-title-home:after {
-    display: none
-  }
+  
 
   .section-title-block .section-description {
     display: none
