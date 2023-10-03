@@ -32,6 +32,12 @@
                  -2px 0px 0px rgb(105, 109, 112), 
                  0px -2px 0px rgb(105, 109, 112);
   }
+
+  .general-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+  }
   
   @media only screen and (max-width:991px) {
     .section-title-home {
@@ -46,7 +52,7 @@
       display: none
     }
   }
-
+  
   .desc-general-info {
     font-size: 1.3em!important;
     width: 100%!important;
