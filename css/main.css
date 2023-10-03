@@ -94,8 +94,44 @@ input[type=submit], input[type=button], button, a.button {
   color: #222;
   text-shadow: none;
   background: 0 0;
-  border-radius: 0;
+  border-radius: 7px;
   font-family: pt sans, Helvetica, sans-serif
+}
+
+.div-button-about {
+  /* margin: 0 0 20px; */
+
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  /* align-content: center; */
+  justify-content: center;
+}
+
+a.button-about {
+  display: inline-block;
+  position: relative;
+  padding: .3em 1.3em;
+  margin-bottom: .25em;
+  line-height: 1.2;
+  border: 0;
+  outline: 0;
+  color: #fff;
+  border: 2px solid #225982;
+  background-color: #225982;
+  text-shadow: none;
+  border-radius: 4px;
+  font-family: pt sans, Helvetica, sans-serif;
+}
+
+a.button-about:hover, a.button-about:focus {
+  color: #225982;
+  background: 0 0;
+}
+
+.text-button-about {
+  /* padding: .8em 2em; */
+  font-size: 1.2em;
 }
 
 .btn {
@@ -725,7 +761,7 @@ li.active a {
 .section-title-home {
   /* display: inline-block;
   position: relative; */
-  /* margin: 0 0 0 -65px; */
+  margin: 66px 0 0 0;
   padding: 10px 20px 10px 20px;
   background-color: #ffcd38;
   
@@ -770,7 +806,11 @@ li.active a {
   background-color: #ffcd38
 }
 
-.general-info {}
+.general-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center
+}
 
 .info-list {
   list-style: none;
