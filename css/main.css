@@ -2048,15 +2048,12 @@ blockquote {
   background: linear-gradient(#fe0000 50%, #fff 0);x
 }
 
-/* .box-idn {
-  padding: 3px;
-} */
 .text-idn {
   background: linear-gradient(white 50%, #ff3737 50%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   
   padding: 3px;
-  font-size: 0.78em;
+  font-size: 0.75em;
   text-shadow: 0px 0px 5px #bbb;
 }
