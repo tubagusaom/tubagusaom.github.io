@@ -135,17 +135,21 @@
     line-height: 1.2!important;
     border: 0!important;
     outline: 0;
-    color: #fff!important;
+    /* color: #fff!important; */
+    color: #25d366!important;
     border: 2px solid #25d366!important;
-    background-color: #25d366!important;
+    /* background-color: #25d366!important; */
+    background: 0 0!important;
     text-shadow: none!important;
     border-radius: 4px!important;
     font-family: pt sans, Helvetica, sans-serif!important;
   }
 
   a.button-wa:hover, a.button-wa:focus {
-    color: #25d366!important;
-    background: 0 0!important;
+    /* color: #25d366!important; */
+    /* background: 0 0!important; */
+    color: #fff!important;
+    background-color: #25d366!important;
   }
 
   .text-button-wa {
@@ -179,4 +183,8 @@
 
   .skill-vps {
     background-color: #2eccff;
+  }
+
+  .skill-github {
+    background-color: #283344;
   }
