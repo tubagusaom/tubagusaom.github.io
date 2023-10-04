@@ -118,7 +118,7 @@
     /* padding: .8em 2em; */
     font-size: 1.2em!important;
   }
-  
+
 
   .div-button-wa {
     width: 100%!important;
@@ -151,4 +151,32 @@
   .text-button-wa {
     /* padding: .8em 2em; */
     font-size: 1.2em!important;
+  }
+
+  .skill-php {
+    background-color: #5f82ba;
+  }
+
+  .skill-mysql {
+    background-color: #e58d00;
+  }
+
+  .skill-html {
+    background-color: #f04949;
+  }
+
+  .skill-css {
+    background-color: #39d084;
+  }
+
+  .skill-js {
+    background-color: #f7df1e;
+  }
+
+  .skill-ci {
+    background-color: #dd4814;
+  }
+
+  .skill-vps {
+    background-color: #2eccff;
   }

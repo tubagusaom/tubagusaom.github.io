@@ -1078,6 +1078,82 @@ li.active a {
   width: 77%
 }
 
+.skill-percentage.skill-10 {
+  width: 10%
+}
+
+.skill-percentage.skill-15 {
+  width: 15%
+}
+
+.skill-percentage.skill-20 {
+  width: 20%
+}
+
+.skill-percentage.skill-25 {
+  width: 25%
+}
+
+.skill-percentage.skill-30 {
+  width: 30%
+}
+
+.skill-percentage.skill-35 {
+  width: 35%
+}
+
+.skill-percentage.skill-40 {
+  width: 40%
+}
+
+.skill-percentage.skill-45 {
+  width: 45%
+}
+
+.skill-percentage.skill-50 {
+  width: 50%
+}
+
+.skill-percentage.skill-55 {
+  width: 55%
+}
+
+.skill-percentage.skill-60 {
+  width: 60%
+}
+
+.skill-percentage.skill-65 {
+  width: 65%
+}
+
+.skill-percentage.skill-70 {
+  width: 70%
+}
+
+.skill-percentage.skill-75 {
+  width: 75%
+}
+
+.skill-percentage.skill-80 {
+  width: 80%
+}
+
+.skill-percentage.skill-85 {
+  width: 85%
+}
+
+.skill-percentage.skill-90 {
+  width: 90%
+}
+
+.skill-percentage.skill-95 {
+  width: 95%
+}
+
+.skill-percentage.skill-100 {
+  width: 100%
+}
+
 .page-ajax-loaded {
   display: none;
   position: absolute;
