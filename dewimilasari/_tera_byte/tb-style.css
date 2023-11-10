@@ -144,7 +144,7 @@ a {
     color: #C7D0E1;
 }
 
-button.contact.active , button.contact.active:focus {
+button.contact.active , button.contact.active:active , button.contact.active:focus {
     background-color: #fa5d26;
 }
 button.contact.active:hover
