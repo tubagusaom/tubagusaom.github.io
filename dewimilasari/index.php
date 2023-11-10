@@ -15,7 +15,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,300" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
 
-    <link href="_tera_byte/style_tb.css" rel="stylesheet">
+    <link href="_tera_byte/style-tb.css" rel="stylesheet">
 </head>
 
 
@@ -104,4 +104,4 @@
 </html>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script src="_tera_byte/script.js"></script>
+<script src="_tera_byte/script-tb.js"></script>

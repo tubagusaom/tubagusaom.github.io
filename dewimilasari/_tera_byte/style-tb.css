@@ -12,8 +12,7 @@ body {
     
 }
 
-a
-{
+a {
 
     text-decoration: none;
 
@@ -25,9 +24,9 @@ a
     z-index: 1;
     position: relative;
     width: 400px;
-    height:400px;
+    height:380px;
     margin: 0 auto;
-    margin-top:100px;
+    margin-top:170px;
     background-color: white;
     -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -47,7 +46,9 @@ a
 }
 .card.active
 {
-    height:510px;
+    height:557px;
+    margin-top: 90px;
+    /* background-color: #fa5d26; */
 }
 .banner
 {
@@ -56,13 +57,13 @@ a
     margin-top: -154px;
     width:100%;
     height:150px;
-    /* background-image: url("https://acwid.com/assets/_tera_byte/img/aw-bg.png"); */
-    background: linear-gradient(45deg, #b53f3f 0%, #b53f3f 1%, #000000 100%);
+    background-image: url("https://terabytee.my.id/dewimilasari/_tera_byte/img/banner-partai-buruh-fix.png");
+    /* background: linear-gradient(45deg, #fd0100 0%, #fd0100 1%, #fa5d26 100%); */
     background-size: cover;
     border-bottom: solid 1px lightgrey;
 
     border-radius: 5px 5px 0 0;
-  
+
     -webkit-transition: all 0.7s ease-in-out;
     -moz-transition:    all 0.7s ease-in-out;
     -o-transition:      all 0.7s ease-in-out;
@@ -72,25 +73,31 @@ a
 .banner.active
 {
     height: 0;
-  
+    border-bottom: none;
+    margin-top: -120px;
+
 }
 
-.photo
-{
+.photo img{
+ width: 100px;
+}
+
+.photo{
     z-index: 3;
     position: relative;
     border-radius: 50%;
-    height: 150px;
-    width: 150px;
+    height: 90px;
+    width: 90px;
     background-color: white;
     margin: 0 auto;
-    background-image: url("https://acwid.com/assets/_tera_byte/img/awcsa.png");
+    background-image: url("https://terabytee.my.id/dewimilasari/_tera_byte/img/dewi-milasari.png");
     background-size: cover;
     background-position: 50% 50%;
-    top:75px;
-    -webkit-box-shadow: inset 0px 0px 5px 1px rgba(0,0,0,0.3);
-    -moz-box-shadow: inset 0px 0px 5px 1px rgba(0,0,0,0.3);
-    box-shadow: inset 0px 0px 5px 1px rgba(0,0,0,0.3);
+    top:40px;
+    left: 143px;
+    -webkit-box-shadow: inset 0px 0px 5px 1px rgba(0,0,0,0.2);
+    -moz-box-shadow: inset 0px 0px 5px 1px rgba(0,0,0,0.2);
+    box-shadow: inset 0px 0px 5px 1px rgba(0,0,0,0.2);
     -webkit-transition: top 0.7s ease-in-out, background 0.15s ease;
     -moz-transition:    top 0.7s ease-in-out, background 0.15s ease;
     -o-transition:      top 0.7s ease-in-out, background 0.15s ease;
@@ -99,15 +106,17 @@ a
 
 .photo.active
 {
-    top:-80px;
+    top:-50px;
+    left: 0;
 }
+
 .card ul
 {
     list-style: none;
     text-align: center;
     padding-left: 0;
-    margin-top:87px;
-    margin-bottom:30px;
+    margin-top:47px;
+    margin-bottom:20px;
     font-size: 20px;
     -webkit-transition: all 0.7s ease-in-out;
     -moz-transition:    all 0.7s ease-in-out;
@@ -117,8 +126,10 @@ a
 
 .card ul.active
 {
-    opacity:0;
-    visibility: hidden;
+    /* opacity:0;
+    visibility: hidden; */
+
+    margin-top: 85px;
 }
 
 .card i
@@ -133,19 +144,27 @@ a
     color: #C7D0E1;
 }
 
+button.contact.active {
+    background-color: #fa5d26;
+}
+button.contact.active:hover
+{
+    cursor: pointer;
+    background-color:#fd0100;
+}
+
 button.contact
 {
     margin: 0 auto;
     text-align: center;
-    margin-top: -15px;
+    margin-top: -5px;
     width: 100%;
     height: 35px;
     display: block;    
     border:none;
-    background-color: transparent;
     font-family: inherit;
     color: white;
-    background-color: #C7D0E1;
+    background-color: #979da8;
     font-size:12px;
     text-transform: uppercase;
     -webkit-transition: all 0.3s ease-in-out;
@@ -157,7 +176,7 @@ button.contact
 button.contact:hover
 {
     cursor: pointer;
-    background-color:#979da8;
+    background-color:#9a9a9a;
 }
 
 button.contact:focus
@@ -222,7 +241,7 @@ button.contact:focus
 
 .email-form.active
 {
-    height: 310px;
+    height: 302px;
     z-index: 3;
     -webkit-transition: all 1s ease-in-out;
     -moz-transition:    all 1s ease-in-out;
@@ -288,18 +307,35 @@ button.contact:focus
 {
     width: 300px;
     /* text-transform: capitalize; */
-/*    background-color: #a4acbc;*/
+    /*    background-color: #a4acbc;*/
     color: #a4acbc;
     font-size: 14px;
     margin: 0 auto;
     font-family: inherit;
     /* border: 1px solid #dadee5; */
-/*    border: 1px solid black;*/
-    margin-top: 35px;
+    /*    border: 1px solid black;*/
+    /* margin-top: 35px; */
     height: 30px;
     display: block;
-        -webkit-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
     -moz-transition:    all 0.2s ease-in-out;
     -o-transition:      all 0.2s ease-in-out;
     -ms-transition:     all 0.2s ease-in-out;
+}
+
+.font-atas {
+    font-size:10px;
+}
+
+.hastag {
+    color: #fd0100;
+    font-weight: bold;
+}
+
+.motto {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 15px;
+    color: #ff926d;
+    font-weight: bold;
 }
