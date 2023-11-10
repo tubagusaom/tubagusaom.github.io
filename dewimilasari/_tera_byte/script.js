@@ -7,8 +7,10 @@ $(document).ready(function()
         $('.card').toggleClass('active');
         $('.banner').toggleClass('active');
         $('.photo').toggleClass('active');
+        $('.card ul').toggleClass('active');
+        $('.contact').toggleClass('active');
         $('.social-media-banner').toggleClass('active');
-        $('.email-form').toggleClass('active');  
+        $('.email-form').toggleClass('active');
         var buttonText = $('button.contact#main-button').text();
         if (buttonText === 'kembali')
         {

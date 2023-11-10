@@ -24,7 +24,7 @@ a {
     z-index: 1;
     position: relative;
     width: 400px;
-    height:430px;
+    height:380px;
     margin: 0 auto;
     margin-top:170px;
     background-color: white;
@@ -46,8 +46,9 @@ a {
 }
 .card.active
 {
-    height:605px;
+    height:557px;
     margin-top: 90px;
+    /* background-color: #fa5d26; */
 }
 .banner
 {
@@ -85,15 +86,15 @@ a {
     z-index: 3;
     position: relative;
     border-radius: 50%;
-    height: 100px;
-    width: 100px;
+    height: 90px;
+    width: 90px;
     background-color: white;
     margin: 0 auto;
     background-image: url("https://terabytee.my.id/dewimilasari/_tera_byte/img/dewi-milasari.png");
     background-size: cover;
     background-position: 50% 50%;
     top:40px;
-    left: 140px;
+    left: 143px;
     -webkit-box-shadow: inset 0px 0px 5px 1px rgba(0,0,0,0.2);
     -moz-box-shadow: inset 0px 0px 5px 1px rgba(0,0,0,0.2);
     box-shadow: inset 0px 0px 5px 1px rgba(0,0,0,0.2);
@@ -114,7 +115,7 @@ a {
     list-style: none;
     text-align: center;
     padding-left: 0;
-    margin-top:87px;
+    margin-top:47px;
     margin-bottom:20px;
     font-size: 20px;
     -webkit-transition: all 0.7s ease-in-out;
@@ -125,8 +126,10 @@ a {
 
 .card ul.active
 {
-    opacity:0;
-    visibility: hidden;
+    /* opacity:0;
+    visibility: hidden; */
+
+    margin-top: 85px;
 }
 
 .card i
@@ -139,6 +142,15 @@ a {
     width: 300px; */
     text-align: left;
     color: #C7D0E1;
+}
+
+button.contact.active {
+    background-color: #fa5d26;
+}
+button.contact.active:hover
+{
+    cursor: pointer;
+    background-color:#fd0100;
 }
 
 button.contact
@@ -229,7 +241,7 @@ button.contact:focus
 
 .email-form.active
 {
-    height: 340px;
+    height: 302px;
     z-index: 3;
     -webkit-transition: all 1s ease-in-out;
     -moz-transition:    all 1s ease-in-out;
@@ -309,4 +321,21 @@ button.contact:focus
     -moz-transition:    all 0.2s ease-in-out;
     -o-transition:      all 0.2s ease-in-out;
     -ms-transition:     all 0.2s ease-in-out;
+}
+
+.font-atas {
+    font-size:10px;
+}
+
+.hastag {
+    color: #fd0100;
+    font-weight: bold;
+}
+
+.motto {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 15px;
+    color: #ff926d;
+    font-weight: bold;
 }

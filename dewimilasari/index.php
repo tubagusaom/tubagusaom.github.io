@@ -33,7 +33,7 @@
                 <br>
 
                 <li style="font-size:14px;padding-top:15px;"><b>Nomor Urut 1</b></li>
-                <li style="font-size:14px;padding-top:5px;">#berani tulus loyal</li>
+                <li class="hastag" style="font-size:14px;padding-top:5px;">#berani #tulus #loyal</li>
             </ul>
             <button class="contact" id="main-button">klik untuk informasi detail</button>
             <div class="social-media-banner">
@@ -53,15 +53,27 @@
                     <i class="fa fa-mobile"></i> &nbsp; &nbsp; &nbsp; +62 813 9999 0707
                 </div> -->
 
-                <div class="details" style="margin-top: 5px;">
-                    <!-- <i class="fa fa-phone"></i> &nbsp; &nbsp; SMA Mandiri balarja
-                    <br> <font style="padding-left: 32px;font-size:10px;">Sekolah</font> -->
+                <div class="details" style="margin-top: 35px;">
+                    <i class="fa fa-graduation-cap"></i> <font class="font-atas" style="padding-left: 11px;">Sekolah</font>
+                    <br> <font style="padding-left: 39px;">SMA Mandiri balarja</font>
 
-                    <br> <br> <font style="padding-left: 32px;">SMA Mandiri balarja</font>
-                    <br> <font style="padding-left: 32px;font-size:10px;">Sekolah</font><br>
+                    <br><br>
+
+                    <i class="fa fa-sitemap"></i> <font class="font-atas" style="padding-left: 16px;">Organisasi</font>
+                    <br> <font style="padding-left: 38px;">Serikat pekerja nasional</font>
+                    <br> <font style="padding-left: 38px;">Bendahara Partai Buruh exco jakarta utara</font>
+
+                    <br><br>
+
+                    <i class="fa fa-calendar"></i> <font class="font-atas" style="padding-left: 16px;">Pengalaman ( PT.Katexindo citra Mandiri )</font>
+                    <br> <font style="padding-left: 38px;">Quality Control & Operator Sewing</font>
+
+                    <br><br>
+
+                    <!-- <i class="fa fa-life-ring"></i> <font class="font-atas" style="padding-left: 16px;">Motto</font>
+                    <br> <font style="padding-left: 38px;">Hidup hanya sekali, hiduplah yg berarti</font> -->
+                    <div class="motto">Hidup hanya sekali, hiduplah yg berarti</div>
                     
-                    <br> <br> <font style="padding-left: 32px;">Serikat pekerja nasional</font>
-                    <br> <font style="padding-left: 32px;font-size:10px;">Organisasi</font><br>
                 </div>
 
                 <!-- <div class="details" style="margin-top: 65px;">
