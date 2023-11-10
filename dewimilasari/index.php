@@ -33,7 +33,7 @@
                 <br>
 
                 <li style="font-size:14px;padding-top:15px;"><b>Nomor Urut 1</b></li>
-                <li class="hastag" style="font-size:14px;padding-top:5px;">#berani #tulus #loyal</li>
+                <li class="hastag" style=""><i>#berani #tulus #loyal</i></li>
             </ul>
             <button class="contact" id="main-button">klik untuk informasi detail</button>
             <div class="social-media-banner">

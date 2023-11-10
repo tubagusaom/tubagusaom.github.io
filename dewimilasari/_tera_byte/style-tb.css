@@ -327,9 +327,11 @@ button.contact:focus
     font-size:10px;
 }
 
-.hastag {
+.hastag i{
     color: #ff5f5e;
     font-weight: bold;
+    font-size:14px;
+    padding-top:5px;
 }
 
 .motto {
