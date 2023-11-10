@@ -15,7 +15,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,300" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
 
-    <link href="_tera_byte/style_tb_.css" rel="stylesheet">
+    <link href="_tera_byte/tb-style.css" rel="stylesheet">
 </head>
 
 
@@ -32,7 +32,7 @@
 
                 <br>
 
-                <li style="font-size:14px;padding-top:15px;"><b>Nomor Urut 1</b></li>
+                <li style="font-size:14px;padding-top:20px;"><b>Nomor Urut 1</b></li>
                 <li class="hastag"><i>#berani #tulus #loyal</i></li>
             </ul>
             <button class="contact" id="main-button">klik untuk informasi detail</button>

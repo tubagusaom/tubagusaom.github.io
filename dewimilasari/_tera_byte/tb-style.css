@@ -24,7 +24,7 @@ a {
     z-index: 1;
     position: relative;
     width: 400px;
-    height:380px;
+    height:390px;
     margin: 0 auto;
     margin-top:170px;
     background-color: white;
@@ -46,7 +46,7 @@ a {
 }
 .card.active
 {
-    height:557px;
+    height:569px;
     margin-top: 90px;
     /* background-color: #fa5d26; */
 }
@@ -116,7 +116,7 @@ a {
     text-align: center;
     padding-left: 0;
     margin-top:47px;
-    margin-bottom:20px;
+    margin-bottom:25px;
     font-size: 20px;
     -webkit-transition: all 0.7s ease-in-out;
     -moz-transition:    all 0.7s ease-in-out;
