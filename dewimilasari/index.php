@@ -21,7 +21,9 @@
 
 <body>
         <div class="card">
-            <div class="photo"></div>
+            <div class="photo">
+                <!-- <img src="_tera_byte/img/dewi-milasari.png" alt=""> -->
+            </div>
             <div class="banner"></div>
             <ul>
                 <li><b>Dewi Milasari</b></li>
@@ -30,8 +32,8 @@
 
                 <br>
 
-                <li style="font-size:14px;padding-top:10px;">#berani tulus loyal</li>
-                <li style="font-size:14px;padding-top:5px;"><b>Nomor Urut 1</b></li>
+                <li style="font-size:14px;padding-top:15px;"><b>Nomor Urut 1</b></li>
+                <li style="font-size:14px;padding-top:5px;">#berani tulus loyal</li>
             </ul>
             <button class="contact" id="main-button">klik untuk informasi detail</button>
             <div class="social-media-banner">
