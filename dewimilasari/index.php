@@ -15,7 +15,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,300" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
 
-    <link href="_tera_byte/style_tb.css" rel="stylesheet">
+    <link href="_tera_byte/style_tb_.css" rel="stylesheet">
 </head>
 
 
